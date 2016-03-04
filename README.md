@@ -53,10 +53,12 @@ Things that I've found useful and worth exploring with my humble comments if any
 
 * [Vulkan Samples][repo-lunarg-vulkan-samples] - Samples for new graphics API - Vulkan (successor of OpenGL I think). Interesting things to explore to learn new API.
 * [Vulkan C++ API][repo-nvpro-vulkan-cpp] - C++ for new graphics API Vulkan.
+* [Vulkan Docs][repo-vulkan-docs] - New graphics api Vulkan Docs
 * [TinyGL ES][repo-tinygles] - Software-rendered OpenGL ES
 
 [repo-lunarg-vulkan-samples]: https://github.com/LunarG/VulkanSamples
 [repo-nvpro-vulkan-cpp]: https://github.com/nvpro-pipeline/vkcpp
+[repo-vulkan-docs]: https://github.com/KhronosGroup/Vulkan-Docs
 [repo-tinygles]: https://github.com/lunixbochs/tinygles
 
 <a name='gamedev-foundation' ></a>
@@ -170,8 +172,10 @@ Things that I've found useful and worth exploring with my humble comments if any
 Any interesting things about new Apple programming language. I didn't have any time to explore swift yet, but I think it is very interesting thing to explore.
 
 * [Kitura][repo-ibm-kitura] - Web-framework and HTTP-server developed by IBM for Swift. 
+* [Swift Algorithms Club][repo-swift-algorithms-club] - Algorithms and Data Structures on Swift with explanations. Good reference for algorithms themselves and swift in particular.
 
 [repo-ibm-kitura]: https://github.com/IBM-Swift/Kitura 
+[repo-swift-algorithms-club]: https://github.com/hollance/swift-algorithm-club
 
 <a name='cpp' ></a>
 ## C++

@@ -10,12 +10,14 @@ Things that I've found useful and worth exploring with my humble comments if any
   * [Foundation](#gamedev-foundation) - fundamental things to gamedev
   * [Web](#gamedev-web)
   * [PCG](#gamedev-pcg)
+  * [AI](#gamedev-ai)
 * [General AI](#ai-general)
   * [Machine Learning](#ai-general-machine-learning) 
   * [Deep Learning](#ai-general-deep-learn)
   * [Natural Language Processing](#ai-general-nlp)
 * [App Dev](#app-dev) - things for application development
-  * [Backends](#app-dev-backends)   
+  * [Backends](#app-dev-backends)
+  * [iOS](#app-dev-ios)   
 * [NodeJS](#nodejs)
   * [Libs](#nodejs-libs)  
 * [JavaScript](#javascript)
@@ -36,6 +38,7 @@ Things that I've found useful and worth exploring with my humble comments if any
 * [Analytics Solutions](#analytics) 
 * [Jobs](#jobs)
 * [Apps](#apps)
+* [Games](#games)
 
 <a name='gamedev'></a>
 ## GameDev
@@ -55,11 +58,13 @@ Things that I've found useful and worth exploring with my humble comments if any
 * [Vulkan C++ API][repo-nvpro-vulkan-cpp] - C++ for new graphics API Vulkan.
 * [Vulkan Docs][repo-vulkan-docs] - New graphics api Vulkan Docs
 * [TinyGL ES][repo-tinygles] - Software-rendered OpenGL ES
+* [heman][repo-heman] - C99 heightmap utilites
 
 [repo-lunarg-vulkan-samples]: https://github.com/LunarG/VulkanSamples
 [repo-nvpro-vulkan-cpp]: https://github.com/nvpro-pipeline/vkcpp
 [repo-vulkan-docs]: https://github.com/KhronosGroup/Vulkan-Docs
 [repo-tinygles]: https://github.com/lunixbochs/tinygles
+[repo-heman]: https://github.com/prideout/heman
 
 <a name='gamedev-foundation' ></a>
 ### GameDev - Foundation
@@ -82,6 +87,15 @@ Things that I've found useful and worth exploring with my humble comments if any
 
 [repo-proc-city-gen]: https://github.com/josauder/procedural_city_generation
 
+<a name='gamedev-ai' ></a>
+### GameDev - AI
+
+* [OpenRTS][repo-openrts] - OpenRTS - RTS game 3d engine in java 7
+* [NoahGameFrame][repo-noah-game-frame] - A fast, scalable distributed game server framework for C++, include actor library, network library, can be used as a real time multiplayer game engine (MMO RPG)
+
+[repo-openrts]: https://github.com/methusalah/OpenRTS
+[repo-noah-game-frame]: https://github.com/ketoo/NoahGameFrame
+
 <a name='ai-general' ></a>
 ## General AI
 
@@ -90,9 +104,11 @@ Things that I've found useful and worth exploring with my humble comments if any
 
 * [Machine Learning Tutorials][repo-ml-tutorials] - machine learning and deep learning tutorials, articles and other resources
 * [Tensorflow][repo-tensorflow] - Google AI toolkit for Machine Learning
+* [Neural Network Papers][repo-neural-network-papers]
 
 [repo-ml-tutorials]: https://github.com/ujjwalkarn/Machine-Learning-Tutorials
 [repo-tensorflow]: https://github.com/tensorflow/tensorflow
+[repo-neural-network-papers]: https://github.com/robertsdionne/neural-network-papers
 
 <a name='ai-general-deep-learn'></a>
 ### General AI - Deep Learning
@@ -117,6 +133,13 @@ Things that I've found useful and worth exploring with my humble comments if any
 * [Parse Alternatives][repo-parse-alternatives] - after Facebook closure of Parse some alternatives appeared. This is special list for such alternatives.
 
 [repo-parse-alternatives]: https://github.com/relatedcode/ParseAlternatives
+
+<a name='app-dev-ios' ></a>
+### App Dev - iOS
+
+* [Carthage][repo-carthage] - package manager for cocoa
+
+[repo-carthage]: https://github.com/Carthage/Carthage
 
 <a name='nodejs' ></a>
 ## NodeJS
@@ -173,9 +196,11 @@ Any interesting things about new Apple programming language. I didn't have any t
 
 * [Kitura][repo-ibm-kitura] - Web-framework and HTTP-server developed by IBM for Swift. 
 * [Swift Algorithms Club][repo-swift-algorithms-club] - Algorithms and Data Structures on Swift with explanations. Good reference for algorithms themselves and swift in particular.
+* [Best Practices][repo-swift-best-practices] - Swift community best practices
 
 [repo-ibm-kitura]: https://github.com/IBM-Swift/Kitura 
 [repo-swift-algorithms-club]: https://github.com/hollance/swift-algorithm-club
+[repo-swift-best-practices]: https://github.com/schwa/Swift-Community-Best-Practices
 
 <a name='cpp' ></a>
 ## C++
@@ -186,6 +211,9 @@ Any interesting things about new Apple programming language. I didn't have any t
 * [jucipp][repo-jucipp] - lightweight crossplatform C++ IDE. Haven't tested it yet.
 * [hyperscan][repo-hyperscan] - High-performance regular expression library
 * [xxHash][repo-xxhash] - Extremely fast non-cryptographic hash algorithm
+* [BDE][repo-bde] - Basic Development Environment - a set of foundational C++ libraries used at Bloomberg
+* [SDSL][repo-sdsl] - Bunch of C++11 data structures
+* [CoreGuidelines][repo-cpp-core-guidelines] - C++ notation by Stroustrup
 
 [repo-par]: https://github.com/prideout/par
 [repo-opendht]: https://github.com/savoirfairelinux/opendht
@@ -193,6 +221,9 @@ Any interesting things about new Apple programming language. I didn't have any t
 [repo-jucipp]: https://github.com/cppit/jucipp
 [repo-hyperscan]: https://github.com/01org/hyperscan
 [repo-xxhash]: https://github.com/Cyan4973/xxHash
+[repo-bde]: https://github.com/bloomberg/bde
+[repo-sdsl]: https://github.com/simongog/sdsl-lite
+[repo-cpp-core-guidelines]: https://github.com/isocpp/CppCoreGuidelines
 
 <a name='cpp-conferences' ></a>
 ### C++ - Conferences
@@ -207,10 +238,12 @@ Any interesting things about new Apple programming language. I didn't have any t
 * [Java 8 Tutorial][repo-java8-tutorial] - Modern Java 8 Guide
 * [TA4j][repo-ta4j] - Technical Analysis Library on Java
 * [Feather][repo-feather] - Lightweight dependency injection for Java and Android (JSR-330)
+* [Chronicle-Queue][repo-chronicle-queue] - Micro second messaging that stores everything to disk (OpenHFT)
 
 [repo-java8-tutorial]: https://github.com/winterbe/java8-tutorial
 [repo-ta4j]: https://github.com/mdeverdelhan/ta4j
 [repo-feather]: https://github.com/zsoltherpai/feather
+[repo-chronicle-queue]: https://github.com/OpenHFT/Chronicle-Queue
 
 <a name='scala' ></a>
 ## Scala
@@ -246,16 +279,28 @@ Any interesting things about new Apple programming language. I didn't have any t
 * [Awesome: Interviews][repo-awesome-interviews] - Curated list of interview questions.
 * [Awesome: Stock Resources][repo-awesome-stock-resources] - Collection of links for free stock photography, video and illustration websites
 * [Awesome: OpenSource Documents][repo-awesome-opensource-documents] - Curated list of awesome open source or open source licensed documents, guides, books
+* [Awesome: Web Scraping][repo-awesome-web-scraping] - List of libraries, tools, and APIs for web scraping and data processing
+* [Awesome: Games][repo-awesome-games] - A list of popular/awesome videos games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine
+* [Awesome: Self Hosted][repo-awesome-self-hosted] - Curated list of self hosted apps
 * [Open Source iOS Apps][repo-open-source-ios-apps] - Collaborative List of Open-Source iOS Apps
 * [Web Design Standards][repo-web-design-standards] - Open Source UI Components and visual style guides
+* [Data Science Blogs][repo-data-science-blogs] - A curated list of Data Science Blogs
+* [CSCS][repo-cscs] - A curated list of Coding Style Conventions and Standards
+* [Lists][repo-lists] - List of awesome lists :)
 
 [repo-awesome-deep-vision]: https://github.com/kjw0612/awesome-deep-vision
 [repo-awesome-app-ideas]: https://github.com/tastejs/awesome-app-ideas
 [repo-awesome-interviews]: https://github.com/MaximAbramchuck/awesome-interviews
 [repo-awesome-stock-resources]: https://github.com/neutraltone/awesome-stock-resources
 [repo-awesome-opensource-documents]: https://github.com/hubtee/awesome-opensource-documents
+[repo-awesome-web-scraping]: https://github.com/lorien/awesome-web-scraping
+[repo-awesome-games]: https://github.com/leereilly/games
+[repo-awesome-self-hosted]: https://github.com/Kickball/awesome-selfhosted
 [repo-open-source-ios-apps]: https://github.com/dkhamsing/open-source-ios-apps
 [repo-web-design-standards]: https://github.com/18F/web-design-standards
+[repo-data-science-blogs]: https://github.com/rushter/data-science-blogs
+[repo-cscs]: https://github.com/SalGnt/cscs
+[repo-lists]: https://github.com/jnv/lists
 
 <a name='just-interesting' ></a>
 ## Just Interesting
@@ -270,6 +315,7 @@ Any interesting things about new Apple programming language. I didn't have any t
 * [RAML][repo-raml] - RESTful API Modelling Language 
 * [Open Source Computer Science][repo-oss-cs] - Self taught lessons on computer science
 * [DEX UI][repo-dex-ui] - Sci-Fi desktop on Linux
+* [Washing Machine View][repo-washing-machine-view] - Just Android demo - Washing Machine
 
 [repo-bloomberg-beta-manual]: https://github.com/Bloomberg-Beta/Manual
 [repo-52tech-in2016]: https://github.com/shekhargulati/52-technologies-in-2016
@@ -281,6 +327,7 @@ Any interesting things about new Apple programming language. I didn't have any t
 [repo-raml]: https://github.com/raml-org/raml-spec
 [repo-oss-cs]: https://github.com/open-source-society/computer-science
 [repo-dex-ui]: https://github.com/seenaburns/dex-ui
+[repo-washing-machine-view]: https://github.com/naman14/WashingMachineView
 
 <a name='devops' ></a>
 ## DevOps
@@ -313,5 +360,22 @@ Any interesting things about new Apple programming language. I didn't have any t
 ## Apps
 
 * [N1][repo-n1] - Extensible email client, built on web technologies (electron and so on)
+* [Mattermost][repo-mattermost] - Open Source self-hosted Slack alternative
+* [OpenSCAD][repo-openscad] - OpenSCAD - The programmers Solid 3D CAD Modeller
+* [Streama][repo-streama] - Like Netflix, but self hosted
+* [Gruik][repo-gruik] - Web-based markdown note-taking web app ( seams dead :( )
+* [Lobsters][repo-lobsters] - Rails code running Lobsters link aggregation site
 
 [repo-n1]: https://github.com/nylas/N1
+[repo-mattermost]: https://github.com/mattermost/platform
+[repo-openscad]: https://github.com/openscad/openscad
+[repo-streama]: https://github.com/dularion/streama
+[repo-gruik]: https://github.com/grena/gruik
+[repo-lobsters]: https://github.com/jcs/lobsters
+
+<a name='games' ></a>
+## Games
+
+* [StarCraft][repo-starcraft] - HTML5 version of StarCraft game
+
+[repo-starcraft]: https://github.com/gloomyson/StarCraft

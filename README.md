@@ -112,11 +112,13 @@ Things that I've found useful and worth exploring with my humble comments if any
 
 * [Cocos2d-x][repo-cocos2d-x] - cocos2d for C++
 * [Atomic Game Engine][repo-atomic-ge] - Atomic Game Engine (crossplatform, 2D/3D)
+* [Serious Engine][repo-serious-engine] - An open source version of a game engine developed by Croteam for the classic Serious Sam games.a
 
 * [GameGear.IO][repo-gamegear-io] - SDK directory for mobile game developers
 
 [repo-cocos2d-x]: https://github.com/cocos2d/cocos2d-x
 [repo-atomic-ge]: https://github.com/AtomicGameEngine/AtomicGameEngine
+[repo-serious-engine]: https://github.com/Croteam-official/Serious-Engine
 
 [repo-gamegear-io]: https://github.com/soomla/gamegear.io
 
